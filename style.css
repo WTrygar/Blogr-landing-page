@@ -306,11 +306,12 @@ nav input {
 
 /* FOOTER */
 footer {
-  height: 500px;
+  height: 400px;
+  padding: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   border-top-right-radius: 50px;
   background-color: var(--black);
   color: var(--lightgray);
@@ -325,10 +326,20 @@ footer {
   list-style-type: none;
 }
 
-.footer-section-content {
-  color: var(--lightgray);
+.footer-section ul {
+  line-height: 40px;
+  list-style-type: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
 }
 
 .footer-section-header {
   color: var(--white);
+  line-height: 70px;
+}
+
+.footer-section-content {
+  color: var(--lightgray);
 }
