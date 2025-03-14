@@ -27,6 +27,8 @@ p {
 }
 
 header {
+  height: 500px;
+
   z-index: 99;
   width: 100%;
   background-image: url("images/bg-pattern-intro-desktop.svg"),
@@ -300,4 +302,33 @@ nav input {
 .body-text div {
   font-size: 45px;
   font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50px;
+  background-color: var(--black);
+  color: var(--lightgray);
+}
+
+.footer-section {
+  height: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 50px;
+  list-style-type: none;
+}
+
+.footer-section-content {
+  color: var(--lightgray);
+}
+
+.footer-section-header {
+  color: var(--white);
 }
