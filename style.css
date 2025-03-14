@@ -122,37 +122,6 @@ nav .wrapper {
   font-weight: 400;
   border-radius: 0px;
 }
-.mega-box {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  padding: 0 30px;
-  top: 85px;
-  opacity: 0;
-  visibility: hidden;
-}
-.mega-box .content {
-  background: #242526;
-  padding: 25px 20px;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-.mega-box .content .row {
-  width: calc(25% - 30px);
-  line-height: 45px;
-}
-.content .row img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.content .row header {
-  color: #f2f2f2;
-  font-size: 20px;
-  font-weight: 500;
-}
 
 .wrapper .btn {
   color: #fff;
@@ -251,40 +220,6 @@ nav .wrapper {
     border-radius: 5px;
     font-size: 18px;
   }
-  .mega-box {
-    position: static;
-    top: 65px;
-    opacity: 1;
-    visibility: visible;
-    padding: 0 20px;
-    max-height: 0px;
-    overflow: hidden;
-    transition: all 0.3s ease;
-  }
-  .mega-box .content {
-    box-shadow: none;
-    flex-direction: column;
-    padding: 20px 20px 0 20px;
-  }
-  .mega-box .content .row {
-    width: 100%;
-    margin-bottom: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-  }
-  .mega-box .content .row:nth-child(1),
-  .mega-box .content .row:nth-child(2) {
-    border-top: 0px;
-  }
-  .content .row .mega-links {
-    border-left: 0px;
-    padding-left: 15px;
-  }
-  .row .mega-links li {
-    margin: 0;
-  }
-  .content .row header {
-    font-size: 19px;
-  }
 }
 nav input {
   display: none;
@@ -302,6 +237,49 @@ nav input {
 .body-text div {
   font-size: 45px;
   font-weight: 600;
+}
+
+/* MAIN */
+
+main h3 {
+  margin-top: 150px;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main h4 {
+  font-size: 2em;
+}
+
+main p {
+  color: var(--darkblue);
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section .section-text {
+  padding-top: 100px;
+  margin-right: 350px;
+  margin-left: 100px;
+}
+
+main section .section-text h4 {
+  margin-bottom: 30px;
+}
+
+main section .section-text p {
+  margin-bottom: 70px;
+}
+
+main section img {
+  object-position: right;
+  margin: -100px -250px;
 }
 
 /* FOOTER */
