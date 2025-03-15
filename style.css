@@ -90,6 +90,14 @@ nav .wrapper {
 
 .wrapper .nav-links {
   display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-links div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .nav-links li {
   list-style: none;
