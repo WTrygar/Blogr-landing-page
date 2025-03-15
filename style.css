@@ -52,6 +52,7 @@ header {
 
 .header-container h2 {
   font-size: 3em;
+  padding-top: 100px;
 }
 
 .header-container h2,
@@ -60,6 +61,11 @@ p {
   justify-content: center;
   align-items: center;
   color: var(--white);
+}
+
+.header-container p {
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .header-btns {
@@ -96,8 +102,6 @@ nav .wrapper {
 
 .nav-links div {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 .nav-links li {
   list-style: none;
